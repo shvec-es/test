@@ -1,19 +1,36 @@
 <header class="header">
-  <div class="container">
+  <div class="container header-container">
     <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
+      <a href="index.html" class="logo"
+        >LLOYD<span class="accet-color">JEFFERSON.</span></a
+      >
+      <div class="left-group">
+        <div class="toggle"></div>
+        <div class="ham-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work-together-title">Contacts</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </div>
 </header>
+
+<div class="off-screen-menu">
+  <ul class="mob-menu">
+    <li><a href="#about">About me</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#work-together-title">Contacts</a></li>
+  </ul>
+</div>
